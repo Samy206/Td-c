@@ -1,0 +1,10 @@
+#include <uvsqgraphics.h>
+int main () {
+	POINT P1;
+	P1=wait_clic();
+	int R=100;
+	draw_circle(P1,R,vert);
+	wait_escape();
+	exit(0);
+}
+
